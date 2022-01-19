@@ -1,4 +1,6 @@
-﻿using MongoDB.Driver;
+﻿using Catalog.Core.Entities;
+using Catalog.Core.Interfaces;
+using MongoDB.Driver;
 
 namespace Catalog.API.Repositories
 {

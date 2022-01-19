@@ -1,3 +1,5 @@
+using Catalog.Core.Entities;
+using Catalog.Core.Interfaces;
 using DnsClient.Internal;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
