@@ -1,5 +1,24 @@
 # Few Point on Catalog API
 
+**File:** launchSettings.json
+
+```
+"Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "environmentVariables": {
+        "DatabaseSettings__ConnectionString": "mongodb://172.17.0.3:27017"
+      }
+    }
+```
+To Retrieve the IP Address of the MongoDB Container, run the following command:
+```
+docker inspect --format '{{ .NetworkSettings.IPAddress }}' mongodb
+```
+![Docker Inspect For IP](../images/Docker_Inspect_For_IP.PNG)
+
 ## Few Docker commands
 ```
 docker pull mongo

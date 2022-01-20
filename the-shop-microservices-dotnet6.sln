@@ -24,13 +24,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "starterfiles", "starterfile
 		documentation\starterfiles\Catalog.API.MD = documentation\starterfiles\Catalog.API.MD
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Core", "source\services\Catalog\Catalog.Core\Catalog.Core.csproj", "{C6711EF2-656A-44FD-A8D2-2C22A3A27C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Core", "source\services\Catalog\Catalog.Core\Catalog.Core.csproj", "{C6711EF2-656A-44FD-A8D2-2C22A3A27C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Data", "source\services\Catalog\Catalog.Data\Catalog.Data.csproj", "{817E920C-0A49-4545-ACC1-DD9A2BF34EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Data", "source\services\Catalog\Catalog.Data\Catalog.Data.csproj", "{817E920C-0A49-4545-ACC1-DD9A2BF34EB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Repository", "source\services\Catalog\Catalog.Repository\Catalog.Repository.csproj", "{9E0BF858-EF23-47AD-B598-4771B9501392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "source\services\Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{2E67936B-6125-4E55-9F91-754EF8FC29AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "source\services\Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{2E67936B-6125-4E55-9F91-754EF8FC29AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{B4F9A490-2CD0-46FD-ABA1-831E637B4927}"
+	ProjectSection(SolutionItems) = preProject
+		documentation\images\Docker_Inspect_For_IP.PNG = documentation\images\Docker_Inspect_For_IP.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +76,7 @@ Global
 		{817E920C-0A49-4545-ACC1-DD9A2BF34EB7} = {9226D866-14E2-43C8-A7B5-A255BED7E9B8}
 		{9E0BF858-EF23-47AD-B598-4771B9501392} = {9226D866-14E2-43C8-A7B5-A255BED7E9B8}
 		{2E67936B-6125-4E55-9F91-754EF8FC29AC} = {9226D866-14E2-43C8-A7B5-A255BED7E9B8}
+		{B4F9A490-2CD0-46FD-ABA1-831E637B4927} = {62C73365-06A1-4117-9C56-B12D194D8872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC4BA333-A02A-434F-9225-50490C4F58A2}
