@@ -22,7 +22,7 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' mongodb
 ## Few Docker commands
 ```
 docker pull mongo
-docker run -d -p 27017:27017 --shop-mongo mongo
+docker run -d -p 27017:27017 --name shop-mongo mongo
 docker ps
 docker logs -f shop-mongo
 docker exec -it shop-mongo /bin/bash
