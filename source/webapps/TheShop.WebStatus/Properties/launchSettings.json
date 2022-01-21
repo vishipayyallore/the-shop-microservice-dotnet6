@@ -3,18 +3,18 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:34121",
+      "applicationUrl": "http://localhost:11287",
       "sslPort": 0
     }
   },
   "profiles": {
-    "TheShop.RazorWeb": {
+    "TheShop.WebStatus": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5153",
+      "applicationUrl": "http://localhost:5047",
       "dotnetRunMessages": true
     },
     "IIS Express": {

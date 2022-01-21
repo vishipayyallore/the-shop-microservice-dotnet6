@@ -10,5 +10,16 @@ services:
       context: .
       dockerfile: source/services/Catalog/Catalog.API/Dockerfile
 
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: source/services/Basket/Basket.API/Dockerfile
+
+  theshop.razorweb:
+    image: ${DOCKER_REGISTRY-}aspnetrunbasics
+    build:
+      context: .
+      dockerfile: source/webapps/AspnetRunBasics/Dockerfile
 volumes:
   mongo_data:
