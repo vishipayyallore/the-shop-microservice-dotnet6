@@ -1,11 +1,17 @@
+using Catalog.Core.Configuration;
 using Catalog.Infrastructure;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Options;
+using static Catalog.Core.Common.Constants;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection(nameof(MongoDbSettings)));
+builder.Services.AddSingleton<IMongoDbSettings>(sp => sp.GetRequiredService<IOptions<MongoDbSettings>>().Value);
+
 CatalogContextDependencies.ConfigureServices(builder.Services);
 ProductRepositoryDependencies.ConfigureServices(builder.Services);
 
@@ -15,7 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHealthChecks()
-                    .AddMongoDb(builder.Configuration["DatabaseSettings:ConnectionString"], "MongoDb Health", HealthStatus.Degraded);
+                    .AddMongoDb(MongoDbConnectionDetails.ConnectionString, "MongoDb Health", HealthStatus.Degraded);
 
 var app = builder.Build();
 

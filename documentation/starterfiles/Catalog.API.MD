@@ -9,7 +9,7 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
       "environmentVariables": {
-        "DatabaseSettings__ConnectionString": "mongodb://172.17.0.3:27017"
+        "MongoDbSettings__ConnectionString": "mongodb://172.17.0.3:27017"
       }
     }
 ```
