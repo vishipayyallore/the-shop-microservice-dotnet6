@@ -28,11 +28,6 @@
                 });
 
                 return totalprice;
-                //foreach (var item in Items)
-                //{
-                //    totalprice += item.Price * item.Quantity;
-                //}
-
             }
         }
     }

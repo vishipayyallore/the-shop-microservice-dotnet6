@@ -9,6 +9,12 @@ services:
     volumes:
         - mongo_data:/data/db
 
+  basketdb:
+    container_name: basketdb
+    restart: always
+    ports:
+        - "6379:6379"
+
   catalog.api:
     container_name: catalog.api
     environment:
@@ -23,12 +29,12 @@ services:
     container_name: basket.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "CacheSettings:ConnectionString=basketdb:6379"
+      - "RedisCacheSettings:ConnectionString=basketdb:6379"
       - "GrpcSettings:DiscountUrl=http://discount.grpc"
       - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
       - "ElasticConfiguration:Uri=http://elasticsearch:9200"
-    # depends_on:
-      # - basketdb
+    depends_on:
+      - basketdb
       # - rabbitmq
     ports:
       - "8001:80"
@@ -39,10 +45,10 @@ services:
         - ASPNETCORE_ENVIRONMENT=Development
         - "ApiSettings:GatewayAddress=http://ocelotapigw"
         - "ElasticConfiguration:Uri=http://elasticsearch:9200"
-    # depends_on:
-        # - ocelotapigw
+    depends_on:
         - catalog.api
         - basket.api
+        # - ocelotapigw
         # - discount.api
         # - ordering.api
     ports:
