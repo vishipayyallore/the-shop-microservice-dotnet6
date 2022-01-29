@@ -21,6 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "source\servi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "starterfiles", "starterfiles", "{4B7FACE8-7F25-4D02-8973-FEB1AED42556}"
 	ProjectSection(SolutionItems) = preProject
+		documentation\starterfiles\Basket.API.MD = documentation\starterfiles\Basket.API.MD
 		documentation\starterfiles\Catalog.API.MD = documentation\starterfiles\Catalog.API.MD
 	EndProjectSection
 EndProject
@@ -45,9 +46,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "source\servic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapps", "webapps", "{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheShop.RazorWeb", "source\webapps\TheShop.RazorWeb\TheShop.RazorWeb.csproj", "{9A9A8E11-24B1-4300-A489-65B79E960FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheShop.RazorWeb", "source\webapps\TheShop.RazorWeb\TheShop.RazorWeb.csproj", "{9A9A8E11-24B1-4300-A489-65B79E960FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheShop.WebStatus", "source\webapps\TheShop.WebStatus\TheShop.WebStatus.csproj", "{5AE568DF-FB38-46ED-83FA-553AE845BB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheShop.WebStatus", "source\webapps\TheShop.WebStatus\TheShop.WebStatus.csproj", "{5AE568DF-FB38-46ED-83FA-553AE845BB0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

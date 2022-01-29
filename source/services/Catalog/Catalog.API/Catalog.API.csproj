@@ -1,28 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>..\..\..\..</DockerfileContext>
-    <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
-    <UserSecretsId>403cf0e7-the-shop-microservices-dotnet6</UserSecretsId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..\..\..</DockerfileContext>
+		<DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+		<UserSecretsId>403cf0e7-the-shop-microservices-dotnet6</UserSecretsId>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="6.0.1" />
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
-    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="6.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.2" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+		<PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
-    <ProjectReference Include="..\Catalog.Data\Catalog.Data.csproj" />
-    <ProjectReference Include="..\Catalog.Infrastructure\Catalog.Infrastructure.csproj" />
-    <ProjectReference Include="..\Catalog.Repository\Catalog.Repository.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
+		<ProjectReference Include="..\Catalog.Data\Catalog.Data.csproj" />
+		<ProjectReference Include="..\Catalog.Infrastructure\Catalog.Infrastructure.csproj" />
+		<ProjectReference Include="..\Catalog.Repository\Catalog.Repository.csproj" />
+	</ItemGroup>
 
 </Project>
