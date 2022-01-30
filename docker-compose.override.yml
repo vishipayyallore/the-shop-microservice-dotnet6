@@ -5,15 +5,15 @@ services:
     container_name: catalogdb
     restart: always
     ports:
-        - "27017:27017"
+      - "27017:27017"
     volumes:
-        - mongo_data:/data/db
+      - mongo_data:/data/db
 
   basketdb:
     container_name: basketdb
     restart: always
     ports:
-        - "6379:6379"
+      - "6379:6379"
 
   portainer:
     container_name: portainer
@@ -52,33 +52,33 @@ services:
   theshop.razorweb:
     container_name: theshop.razorweb
     environment:
-        - ASPNETCORE_ENVIRONMENT=Development
-        - "ApiSettings:GatewayAddress=http://ocelotapigw"
-        - "ElasticConfiguration:Uri=http://elasticsearch:9200"
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ApiSettings:GatewayAddress=http://ocelotapigw"
+      - "ElasticConfiguration:Uri=http://elasticsearch:9200"
     depends_on:
-        - catalog.api
-        - basket.api
-        # - ocelotapigw
-        # - discount.api
-        # - ordering.api
+      - catalog.api
+      - basket.api
+      # - ocelotapigw
+      # - discount.api
+      # - ordering.api
     ports:
-        - "8006:80"
+      - "8006:80"
 
   theshop.webstatus:
     container_name: theshop.webstatus
     environment:
-        - ASPNETCORE_ENVIRONMENT=Development
-        - HealthChecksUI__HealthChecks__0__Name=Catalog Health Check
-        - HealthChecksUI__HealthChecks__0__Uri=http://catalog.api/hc
-        - HealthChecksUI__HealthChecks__1__Name=Basket Health Check
-        - HealthChecksUI__HealthChecks__1__Uri=http://basket.api/hc
-        - HealthChecksUI__HealthChecks__2__Name=Discount Health Check
-        - HealthChecksUI__HealthChecks__2__Uri=http://discount.api/hc
-        - HealthChecksUI__HealthChecks__3__Name=Ordering Health Check
-        - HealthChecksUI__HealthChecks__3__Uri=http://ordering.api/hc
-        - HealthChecksUI__HealthChecks__4__Name=Shopping Aggregator Health Check
-        - HealthChecksUI__HealthChecks__4__Uri=http://shopping.aggregator/hc
-        - HealthChecksUI__HealthChecks__5__Name=AspnetRunBasics WebMVC Health Check
-        - HealthChecksUI__HealthChecks__5__Uri=http://aspnetrunbasics/hc    
+      - ASPNETCORE_ENVIRONMENT=Development
+      - HealthChecksUI__HealthChecks__0__Name=Catalog Health Check
+      - HealthChecksUI__HealthChecks__0__Uri=http://catalog.api/hc
+      - HealthChecksUI__HealthChecks__1__Name=Basket Health Check
+      - HealthChecksUI__HealthChecks__1__Uri=http://basket.api/hc
+      - HealthChecksUI__HealthChecks__2__Name=Discount Health Check
+      - HealthChecksUI__HealthChecks__2__Uri=http://discount.api/hc
+      - HealthChecksUI__HealthChecks__3__Name=Ordering Health Check
+      - HealthChecksUI__HealthChecks__3__Uri=http://ordering.api/hc
+      - HealthChecksUI__HealthChecks__4__Name=Shopping Aggregator Health Check
+      - HealthChecksUI__HealthChecks__4__Uri=http://shopping.aggregator/hc
+      - HealthChecksUI__HealthChecks__5__Name=AspnetRunBasics WebMVC Health Check
+      - HealthChecksUI__HealthChecks__5__Uri=http://aspnetrunbasics/hc
     ports:
-        - "8007:80"
+      - "8007:80"
