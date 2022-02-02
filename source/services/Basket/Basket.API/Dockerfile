@@ -7,6 +7,8 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["source/services/Basket/Basket.API/Basket.API.csproj", "source/services/Basket/Basket.API/"]
+COPY ["source/services/Basket/Basket.Repository/Basket.Repository.csproj", "source/services/Basket/Basket.Repository/"]
+COPY ["source/services/Basket/Basket.Core/Basket.Core.csproj", "source/services/Basket/Basket.Core/"]
 RUN dotnet restore "source/services/Basket/Basket.API/Basket.API.csproj"
 COPY . .
 WORKDIR "/src/source/services/Basket/Basket.API"

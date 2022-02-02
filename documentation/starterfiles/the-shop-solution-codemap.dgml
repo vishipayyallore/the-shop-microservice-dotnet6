@@ -1,69 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="372.514012879816,382.999962500008,175.056666666667,25" CodeSchemaProperty_StrongName="Catalog.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(9e0bf858-ef23-47ad-b598-4771b9501392.OutputPath)" Group="Collapsed" Label="Catalog.Repository.dll" />
-    <Node Id="@11" Category="CodeSchema_Namespace" Bounds="289.121666666667,160,62.1999999999999,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::" UseManualLocation="True" />
-    <Node Id="@12" Category="CodeSchema_Namespace" Bounds="80,160,178.443333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Catalog‎.API‎.Controllers" UseManualLocation="True" />
-    <Node Id="@13" Category="CodeSchema_Namespace" Bounds="230.11,270,180.223333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Microsoft‎.CodeAnalysis" UseManualLocation="True" />
-    <Node Id="@14" Category="CodeSchema_Namespace" Bounds="202.896666666667,215,234.65,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="System‎.Runtime‎.CompilerServices" UseManualLocation="True" />
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="199.027246213149,382.999962500008,143.486666666667,25" CodeSchemaProperty_StrongName="Catalog.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(817e920c-0a49-4545-acc1-dd9a2bf34eb7.OutputPath)" Group="Collapsed" Label="Catalog.Data.dll" />
-    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="293.230570972867,437.999962500008,143.703333333333,25" CodeSchemaProperty_StrongName="Catalog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPath)" Group="Collapsed" Label="Catalog.Core.dll" />
-    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="264.047565502238,327.999962500008,189.786666666667,25" CodeSchemaProperty_StrongName="Catalog.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPath)" Group="Collapsed" Label="Catalog.Infrastructure.dll" />
-    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="297.807271098605,272.999962500008,136.446666666667,25" CodeSchemaProperty_StrongName="Catalog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="4" FilePath="$(cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPath)" Group="Collapsed" Label="Catalog.API.dll" UseManualLocation="True" />
-    <Node Id="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Category="CodeMap_SolutionFolder" Bounds="179.027246213149,232.999712500008,388.543433333333,250.0005" Group="Expanded" Label="Catalog" />
-    <Node Id="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" Category="CodeMap_SolutionFolder" Bounds="159.027246213149,192.999612500008,428.543433333334,310.0007" Group="Expanded" Label="services" />
-    <Node Id="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" Category="CodeMap_SolutionFolder" Bounds="139.027246213149,152.999512500008,468.543433333333,370.0009" Group="Expanded" Label="source" />
+    <Node Id="(@15)" Category="CodeSchema_Assembly" Bounds="586.743333333334,135,180.86,25" CodeSchemaProperty_StrongName="TheShop.WebStatus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(5ae568df-fb38-46ed-83fa-553ae845bb0c.OutputPath)" Group="Collapsed" Label="TheShop.WebStatus.dll" />
+    <Node Id="(@3 Namespace=::)" Category="CodeSchema_Namespace" Bounds="396.52,199.855012704468,62.2,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="204.106666666666,175,189.786666666667,25" CodeSchemaProperty_StrongName="Catalog.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPath)" Group="Collapsed" Label="Catalog.Infrastructure.dll" />
+    <Node Id="@12" Category="CodeSchema_Assembly" Bounds="104.776666666667,120,136.446666666667,25" CodeSchemaProperty_StrongName="Catalog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="4" FilePath="$(cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPath)" Group="Collapsed" Label="Catalog.API.dll" />
+    <Node Id="@14" Category="CodeSchema_Assembly" Bounds="63.6283333333333,400,130.12,25" CodeSchemaProperty_StrongName="Basket.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(0a7f183c-45a1-4e61-9b3d-b94eb4fd2b35.OutputPath)" Group="Collapsed" Label="Basket.API.dll" />
+    <Node Id="@17" Category="CodeSchema_Assembly" Bounds="92.4716666666665,230,175.056666666667,25" CodeSchemaProperty_StrongName="Catalog.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(9e0bf858-ef23-47ad-b598-4771b9501392.OutputPath)" Group="Collapsed" Label="Catalog.Repository.dll" />
+    <Node Id="@19" Category="CodeSchema_Assembly" Bounds="159.323333333333,455,168.73,25" CodeSchemaProperty_StrongName="Basket.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(db14896b-7de3-4c73-a4ec-d9d36e303bac.OutputPath)" Group="Collapsed" Label="Basket.Repository.dll" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="353.256666666666,230,143.486666666667,25" CodeSchemaProperty_StrongName="Catalog.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(817e920c-0a49-4545-acc1-dd9a2bf34eb7.OutputPath)" Group="Collapsed" Label="Catalog.Data.dll" />
+    <Node Id="@20" Category="CodeSchema_Namespace" Bounds="289.121666666667,160,62.1999999999999,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Namespace" Bounds="80,160,178.443333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Catalog‎.API‎.Controllers" UseManualLocation="True" />
+    <Node Id="@22" Category="CodeSchema_Namespace" Bounds="666.92,144.855012704468,180.223333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Microsoft‎.CodeAnalysis" UseManualLocation="True" />
+    <Node Id="@23" Category="CodeSchema_Namespace" Bounds="230.11,270,180.223333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Microsoft‎.CodeAnalysis" UseManualLocation="True" />
+    <Node Id="@24" Category="CodeSchema_Namespace" Bounds="639.706666666666,89.8550127044677,234.65,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="System‎.Runtime‎.CompilerServices" UseManualLocation="True" />
+    <Node Id="@25" Category="CodeSchema_Namespace" Bounds="202.896666666667,215,234.65,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="System‎.Runtime‎.CompilerServices" UseManualLocation="True" />
+    <Node Id="@26" Category="CodeSchema_Namespace" Bounds="660.213333333333,34.8550127044677,193.636666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TheShop‎.RazorWeb‎.Pages" UseManualLocation="True" />
+    <Node Id="@27" Category="CodeSchema_Namespace" Bounds="396.52,34.8550127044677,233.023333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TheShop‎.RazorWeb‎.Pages‎.Shared" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="586.743333333334,80,178.663333333333,25" CodeSchemaProperty_StrongName="TheShop.RazorWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" FilePath="$(9a9a8e11-24b1-4300-a489-65b79e960fe1.OutputPath)" Group="Collapsed" Label="TheShop.RazorWeb.dll" />
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="227.148333333333,285,143.703333333333,25" CodeSchemaProperty_StrongName="Catalog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPath)" Group="Collapsed" Label="Catalog.Core.dll" />
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="60,510,137.376666666667,25" CodeSchemaProperty_StrongName="Basket.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(ce8dc6a7-5721-4ce3-b192-604ca8a47a3a.OutputPath)" Group="Collapsed" Label="Basket.Core.dll" />
+    <Node Id="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" Category="CodeMap_SolutionFolder" Bounds="40,360,308.053333333333,195" Group="Expanded" Label="Basket" />
+    <Node Id="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Category="CodeMap_SolutionFolder" Bounds="40,80,476.743333333334,250" Group="Expanded" Label="Catalog" />
+    <Node Id="docker-compose.dcproj" Category="CodeMap_Project" Bounds="837.603333333334,0,109.216666666667,25.96" Label="docker-compose" />
+    <Node Id="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" Category="CodeMap_SolutionFolder" Bounds="20,40,516.743333333333,535" Group="Expanded" Label="services" />
+    <Node Id="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" Category="CodeMap_SolutionFolder" Bounds="0,0,807.603333333334,595" Group="Expanded" Label="source" />
+    <Node Id="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" Category="CodeMap_SolutionFolder" Bounds="566.743333333334,40,220.86,140" Group="Expanded" Label="webapps" />
   </Nodes>
   <Links>
-    <Link Source="@10" Target="@4" Category="References" Bounds="394.452031439365,407.999962500008,44.0085307755551,25.489395813598" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="98">
+    <Link Source="@10" Target="@17" Category="References" Bounds="215.215072631836,200,56.7394866943359,26.22412109375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1">
+      <Category Ref="CodeMap_ProjectReference" />
+    </Link>
+    <Link Source="@10" Target="@2" Category="References" Bounds="327.636352539063,200,60.4788513183594,26.3995056152344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1">
+      <Category Ref="CodeMap_ProjectReference" />
+    </Link>
+    <Link Source="@10" Target="@6" Category="References" Bounds="299,200,0,76" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeMap_ProjectReference" />
+    </Link>
+    <Link Source="@12" Target="@10" Category="CodeMap_ProjectReference" />
+    <Link Source="@12" Target="@17" Category="CodeMap_ProjectReference" Bounds="173,145,4.27279663085938,76.072021484375" />
+    <Link Source="@12" Target="@2" Category="CodeMap_ProjectReference" Bounds="240.178298950195,143.059127807617,184.821701049805,77.9408721923828" />
+    <Link Source="@12" Target="@20" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@21" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@23" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@25" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@6" Category="CodeMap_ProjectReference" />
+    <Link Source="@14" Target="@19" Category="References" Bounds="154.824691772461,425,54.6080627441406,26.1169128417969" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1">
+      <Category Ref="CodeMap_ProjectReference" />
+    </Link>
+    <Link Source="@14" Target="@8" Category="References" Bounds="128.688339233398,425,0,76" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="40">
+      <Category Ref="CodeMap_ProjectReference" />
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@6" Category="References" Bounds="207.045455932617,255,56.7394561767578,26.22412109375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="98">
       <Category Ref="CodeMap_ProjectReference" />
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="Implements" />
     </Link>
-    <Link Source="@11" Target="@14" Category="CodeSchema_AttributeUse" Bounds="320.2216796875,185,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@11" Target="@6" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@12" Target="@14" Category="CodeSchema_AttributeUse" Bounds="203.539855957031,185,73.9071350097656,26.9198150634766" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="37" />
-    <Link Source="@12" Target="@4" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="87">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@14" Target="@13" Category="CodeSchema_AttributeUse" Bounds="320.2216796875,240,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@2" Target="@4" Category="References" Bounds="292.205008323214,408.000012500008,43.6682510962004,25.4661854714343" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="61">
+    <Link Source="@19" Target="@8" Category="References" Bounds="162.943908691406,480,54.6080627441406,26.1169128417969" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="29">
       <Category Ref="CodeMap_ProjectReference" />
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="Implements" />
     </Link>
-    <Link Source="@6" Target="@10" Category="References" Bounds="381.918479623583,352.999912500008,47.2404247576245,25.6991941370247" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1">
+    <Link Source="@2" Target="@6" Category="References" Bounds="335.884796142578,255,60.4788513183594,26.3995056152344" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="65">
       <Category Ref="CodeMap_ProjectReference" />
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="Implements" />
     </Link>
-    <Link Source="@6" Target="@2" Category="References" Bounds="298.445373482,352.999912500008,40.4568528581827,25.2367346611242" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1">
-      <Category Ref="CodeMap_ProjectReference" />
+    <Link Source="@20" Target="@10" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@20" Target="@25" Category="CodeSchema_AttributeUse" Bounds="320.2216796875,185,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@20" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@6" Target="@4" Category="References" Bounds="359.638776976243,352.999912500008,4.24389154263736,76.0141938704334" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
-      <Category Ref="CodeMap_ProjectReference" />
+    <Link Source="@21" Target="@25" Category="CodeSchema_AttributeUse" Bounds="203.539855957031,185,73.9071350097656,26.9198150634766" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="37" />
+    <Link Source="@21" Target="@6" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="87">
+      <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@8" Target="@10" Category="CodeMap_ProjectReference" Bounds="403.855072021484,297.999816894531,59.044189453125,76.0116271972656" />
-    <Link Source="@8" Target="@11" Category="Contains" FetchingParent="@8" />
-    <Link Source="@8" Target="@12" Category="Contains" FetchingParent="@8" />
-    <Link Source="@8" Target="@13" Category="Contains" FetchingParent="@8" />
-    <Link Source="@8" Target="@14" Category="Contains" FetchingParent="@8" />
-    <Link Source="@8" Target="@2" Category="CodeMap_ProjectReference" Bounds="258.268524169922,297.999816894531,64.4613952636719,76.2051391601563" />
-    <Link Source="@8" Target="@4" Category="CodeMap_ProjectReference" Bounds="174.812698364258,139.999969482422,108.404312133789,131.067810058594" />
-    <Link Source="@8" Target="@6" Category="CodeMap_ProjectReference" Bounds="174.740700934982,139.999975999993,0.227833873005693,21.000529602797" />
+    <Link Source="@24" Target="@22" Category="CodeSchema_AttributeUse" Bounds="757.031677246094,114.855010986328,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@25" Target="@23" Category="CodeSchema_AttributeUse" Bounds="320.2216796875,240,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@26" Target="@24" Category="CodeSchema_AttributeUse" Bounds="757.031677246094,59.8550109863281,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="13" />
+    <Link Source="@27" Target="@24" Category="CodeSchema_AttributeUse" Bounds="568.486206054688,59.8550109863281,124.311218261719,28.0209655761719" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="17" />
+    <Link Source="@4" Target="(@3 Namespace=::)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@22" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@24" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@26" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@27" Category="Contains" FetchingParent="@4" />
+    <Link Source="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" Target="@14" Category="Contains" FetchingParent="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" />
+    <Link Source="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" Target="@19" Category="Contains" FetchingParent="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" />
+    <Link Source="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" Target="@8" Category="Contains" FetchingParent="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" />
     <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@10" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
+    <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@12" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
+    <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@17" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
     <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@2" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
-    <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@4" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
     <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@6" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
-    <Link Source="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Target="@8" Category="Contains" FetchingParent="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" />
+    <Link Source="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" Target="Basket{E0504EB6-0CEF-4BDE-BD77-B5B4853F8EB4}" Category="Contains" FetchingParent="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" />
     <Link Source="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" Target="Catalog{9226D866-14E2-43C8-A7B5-A255BED7E9B8}" Category="Contains" FetchingParent="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" />
     <Link Source="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" Target="services{E2AC1F36-53B9-4BCF-A88B-22DC21A1FC1A}" Category="Contains" FetchingParent="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" />
+    <Link Source="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" Target="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" Category="Contains" FetchingParent="source{B7658981-1981-4B1A-BF8E-FCBD3D122604}" />
+    <Link Source="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" Target="(@15)" Category="Contains" FetchingParent="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" />
+    <Link Source="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" Target="@4" Category="Contains" FetchingParent="webapps{4FCE3927-EEF6-441A-BBC1-8953EB6398B6}" />
   </Links>
   <Categories>
+    <Category Id="CodeMap_Project" Label="Non Assembly Project" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Non Assembly Projects" />
     <Category Id="CodeMap_ProjectReference" Label="Project Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
     <Category Id="CodeMap_SolutionFolder" Label="Solution Folder" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Solution Folder" />
     <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
     <Category Id="CodeSchema_AttributeUse" Label="Uses Attribute" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Used by" OutgoingActionLabel="Uses Attribute" />
     <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
     <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
     <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
@@ -84,7 +130,7 @@
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
@@ -110,18 +156,31 @@
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(817e920c-0a49-4545-acc1-dd9a2bf34eb7.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Uri="Assembly=$(c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPathUri)" />
+    <Alias n="3" Uri="Assembly=$(9a9a8e11-24b1-4300-a489-65b79e960fe1.OutputPathUri)" />
     <Alias n="4" Id="(@3)" />
-    <Alias n="5" Uri="Assembly=$(2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPathUri)" />
+    <Alias n="5" Uri="Assembly=$(c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPathUri)" />
     <Alias n="6" Id="(@5)" />
-    <Alias n="7" Uri="Assembly=$(cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPathUri)" />
+    <Alias n="7" Uri="Assembly=$(ce8dc6a7-5721-4ce3-b192-604ca8a47a3a.OutputPathUri)" />
     <Alias n="8" Id="(@7)" />
-    <Alias n="9" Uri="Assembly=$(9e0bf858-ef23-47ad-b598-4771b9501392.OutputPathUri)" />
+    <Alias n="9" Uri="Assembly=$(2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPathUri)" />
     <Alias n="10" Id="(@9)" />
-    <Alias n="11" Id="(@7 Namespace=::)" />
-    <Alias n="12" Id="(@7 Namespace=Catalog.API.Controllers)" />
-    <Alias n="13" Id="(@7 Namespace=Microsoft.CodeAnalysis)" />
-    <Alias n="14" Id="(@7 Namespace=System.Runtime.CompilerServices)" />
+    <Alias n="11" Uri="Assembly=$(cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPathUri)" />
+    <Alias n="12" Id="(@11)" />
+    <Alias n="13" Uri="Assembly=$(0a7f183c-45a1-4e61-9b3d-b94eb4fd2b35.OutputPathUri)" />
+    <Alias n="14" Id="(@13)" />
+    <Alias n="15" Uri="Assembly=$(5ae568df-fb38-46ed-83fa-553ae845bb0c.OutputPathUri)" />
+    <Alias n="16" Uri="Assembly=$(9e0bf858-ef23-47ad-b598-4771b9501392.OutputPathUri)" />
+    <Alias n="17" Id="(@16)" />
+    <Alias n="18" Uri="Assembly=$(db14896b-7de3-4c73-a4ec-d9d36e303bac.OutputPathUri)" />
+    <Alias n="19" Id="(@18)" />
+    <Alias n="20" Id="(@11 Namespace=::)" />
+    <Alias n="21" Id="(@11 Namespace=Catalog.API.Controllers)" />
+    <Alias n="22" Id="(@3 Namespace=Microsoft.CodeAnalysis)" />
+    <Alias n="23" Id="(@11 Namespace=Microsoft.CodeAnalysis)" />
+    <Alias n="24" Id="(@3 Namespace=System.Runtime.CompilerServices)" />
+    <Alias n="25" Id="(@11 Namespace=System.Runtime.CompilerServices)" />
+    <Alias n="26" Id="(@3 Namespace=TheShop.RazorWeb.Pages)" />
+    <Alias n="27" Id="(@3 Namespace=TheShop.RazorWeb.Pages.Shared)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -341,15 +400,25 @@
     </Style>
   </Styles>
   <Paths>
+    <Path Id="0a7f183c-45a1-4e61-9b3d-b94eb4fd2b35.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Basket\Basket.API\bin\Debug\net6.0\Basket.API.dll" />
+    <Path Id="0a7f183c-45a1-4e61-9b3d-b94eb4fd2b35.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Basket/Basket.API/bin/Debug/net6.0/Basket.API.dll" />
     <Path Id="2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Catalog\Catalog.Infrastructure\bin\Debug\net6.0\Catalog.Infrastructure.dll" />
     <Path Id="2e67936b-6125-4e55-9f91-754ef8fc29ac.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Infrastructure.dll" />
+    <Path Id="5ae568df-fb38-46ed-83fa-553ae845bb0c.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\webapps\TheShop.WebStatus\bin\Debug\net6.0\TheShop.WebStatus.dll" />
+    <Path Id="5ae568df-fb38-46ed-83fa-553ae845bb0c.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/webapps/TheShop.WebStatus/bin/Debug/net6.0/TheShop.WebStatus.dll" />
     <Path Id="817e920c-0a49-4545-acc1-dd9a2bf34eb7.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Catalog\Catalog.Data\bin\Debug\net6.0\Catalog.Data.dll" />
     <Path Id="817e920c-0a49-4545-acc1-dd9a2bf34eb7.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Catalog/Catalog.Data/bin/Debug/net6.0/Catalog.Data.dll" />
+    <Path Id="9a9a8e11-24b1-4300-a489-65b79e960fe1.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\webapps\TheShop.RazorWeb\bin\Debug\net6.0\TheShop.RazorWeb.dll" />
+    <Path Id="9a9a8e11-24b1-4300-a489-65b79e960fe1.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/webapps/TheShop.RazorWeb/bin/Debug/net6.0/TheShop.RazorWeb.dll" />
     <Path Id="9e0bf858-ef23-47ad-b598-4771b9501392.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Catalog\Catalog.Repository\bin\Debug\net6.0\Catalog.Repository.dll" />
     <Path Id="9e0bf858-ef23-47ad-b598-4771b9501392.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Catalog/Catalog.Repository/bin/Debug/net6.0/Catalog.Repository.dll" />
     <Path Id="c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Catalog\Catalog.Core\bin\Debug\net6.0\Catalog.Core.dll" />
     <Path Id="c6711ef2-656a-44fd-a8d2-2c22a3a27c06.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Core.dll" />
     <Path Id="cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Catalog\Catalog.API\bin\Debug\net6.0\Catalog.API.dll" />
     <Path Id="cb85307e-a3eb-4479-831e-1a39c93d407d.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.API.dll" />
+    <Path Id="ce8dc6a7-5721-4ce3-b192-604ca8a47a3a.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Basket\Basket.Core\bin\Debug\net6.0\Basket.Core.dll" />
+    <Path Id="ce8dc6a7-5721-4ce3-b192-604ca8a47a3a.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Basket/Basket.Core/bin/Debug/net6.0/Basket.Core.dll" />
+    <Path Id="db14896b-7de3-4c73-a4ec-d9d36e303bac.OutputPath" Value="C:\LordKrishna\GitHub\the-shop-microservice-dotnet6\source\services\Basket\Basket.Repository\bin\Debug\net6.0\Basket.Repository.dll" />
+    <Path Id="db14896b-7de3-4c73-a4ec-d9d36e303bac.OutputPathUri" Value="file:///C:/LordKrishna/GitHub/the-shop-microservice-dotnet6/source/services/Basket/Basket.Repository/bin/Debug/net6.0/Basket.Repository.dll" />
   </Paths>
 </DirectedGraph>

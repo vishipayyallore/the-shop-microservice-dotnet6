@@ -1,4 +1,5 @@
-using Basket.API.Repositories;
+using Basket.Core.Interfaces;
+using Basket.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
