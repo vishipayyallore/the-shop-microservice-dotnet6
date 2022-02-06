@@ -10,4 +10,8 @@ The Shop ECommerce Solution using .NET 6. I am **referring multiple** solutions,
 
 ![Basket API | 100x100](./documentation/images/BasketAPI.PNG)
 
+![Discount API | 100x100](./documentation/images/DiscountAPI.PNG)
+
+![PG Admin | 100x100](./documentation/images/PgAdmin.PNG)
+
 ![Portainer | 100x100](./documentation/images/Portainer.PNG)
