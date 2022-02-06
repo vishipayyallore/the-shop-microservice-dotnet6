@@ -19,7 +19,7 @@ services:
     container_name: discountdb
     environment:
       - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=admin1234
+      - POSTGRES_PASSWORD=Sample@123$$
       - POSTGRES_DB=DiscountDb
     restart: always
     ports:
@@ -92,9 +92,9 @@ services:
     depends_on:
       - catalog.api
       - basket.api
-      # - ocelotapigw
-      # - discount.api
+      - discount.api
       # - ordering.api
+      # - ocelotapigw
     ports:
       - "8006:80"
 
@@ -116,9 +116,3 @@ services:
       - HealthChecksUI__HealthChecks__5__Uri=http://aspnetrunbasics/hc
     ports:
       - "8007:80"
-
-  discount.api:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "80"
