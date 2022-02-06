@@ -6,7 +6,10 @@
       "serviceActions": {
         "basket.api": "StartDebugging",
         "catalog.api": "StartDebugging",
+        "discount.api": "StartDebugging",
         "catalogdb": "StartWithoutDebugging",
+        "basketdb": "StartWithoutDebugging",
+        "discountdb": "StartWithoutDebugging",
         "theshop.razorweb": "StartDebugging",
         "theshop.webstatus": "StartDebugging"
       }
