@@ -1,7 +1,15 @@
+using TheShop.RazorWeb.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddHttpClient<ICatalogService, CatalogService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:8000");
+}
+);
 
 var app = builder.Build();
 
