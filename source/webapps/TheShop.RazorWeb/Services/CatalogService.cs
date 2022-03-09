@@ -1,5 +1,4 @@
-﻿using TheShop.RazorWeb.Extensions;
-using TheShop.RazorWeb.Models;
+﻿using TheShop.RazorWeb.Models;
 
 namespace TheShop.RazorWeb.Services
 {
@@ -16,7 +15,7 @@ namespace TheShop.RazorWeb.Services
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        public async Task<IEnumerable<CatalogModel>> GetCatalog()
+        public async Task<IEnumerable<CatalogModel>> GetCatalog(string productId = "")
         {
             try
             {
@@ -24,15 +23,15 @@ namespace TheShop.RazorWeb.Services
 #pragma warning disable CS8603 // Possible null reference return.
                 return await _client.GetFromJsonAsync<IEnumerable<CatalogModel>>("/api/v1/Catalog");
 #pragma warning restore CS8603 // Possible null reference return.
-                              // var response = await _client.GetAsync("/api/v1/Catalog");
-                              // return await response.ReadContentAs<List<CatalogModel>>();
+                // var response = await _client.GetAsync("/api/v1/Catalog");
+                // return await response.ReadContentAs<List<CatalogModel>>();
             }
             catch (Exception error)
             {
                 _logger.LogError(error.Message);
                 throw;
             }
-            
+
         }
 
     }

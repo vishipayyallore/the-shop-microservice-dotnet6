@@ -7,7 +7,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddHttpClient<ICatalogService, CatalogService>(client =>
 {
-    client.BaseAddress = new Uri("http://localhost:8000");
+    client.BaseAddress = new Uri("http://catalog.api");
 }
 );
 

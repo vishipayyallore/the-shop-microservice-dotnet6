@@ -2,10 +2,10 @@
 
 namespace TheShop.RazorWeb.Services
 {
-    
+
     public interface ICatalogService
     {
-        Task<IEnumerable<CatalogModel>> GetCatalog();
+        Task<IEnumerable<CatalogModel>> GetCatalog(string productId = "");
     }
 
 }

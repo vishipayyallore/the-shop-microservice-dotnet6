@@ -21,7 +21,7 @@ namespace TheShop.RazorWeb.Pages
 
         public async Task<IActionResult> OnGetAsync()
         {
-            ProductList = await _catalogService.GetCatalog();
+            ProductList = await _catalogService.GetCatalog("");
             return Page();
         }
 
