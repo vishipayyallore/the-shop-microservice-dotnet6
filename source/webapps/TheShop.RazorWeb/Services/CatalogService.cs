@@ -15,7 +15,7 @@ namespace TheShop.RazorWeb.Services
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        public async Task<IEnumerable<CatalogModel>> GetCatalog()
+        public async Task<IEnumerable<CatalogModel>> GetCatalog(string productId = "")
         {
             try
             {
